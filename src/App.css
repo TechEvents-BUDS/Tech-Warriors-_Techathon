@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+.x-y-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.x-center{
+  display: flex;
+  justify-content: center;
+}
+
+.y-center{
+  display: flex;
+  align-items: center;
+}
+
+.between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.evenly{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.around{
+  display: flex;
+  justify-content: space-around;
+}
